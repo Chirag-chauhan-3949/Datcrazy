@@ -1,0 +1,266 @@
+[debug] [2024-04-18T13:57:05.991Z] ----------------------------------------------------------------------
+[debug] [2024-04-18T13:57:05.997Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Himanshu Jha\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-04-18T13:57:05.997Z] CLI Version:   13.7.3
+[debug] [2024-04-18T13:57:05.998Z] Platform:      win32
+[debug] [2024-04-18T13:57:05.998Z] Node Version:  v20.11.1
+[debug] [2024-04-18T13:57:05.999Z] Time:          Thu Apr 18 2024 19:27:05 GMT+0530 (India Standard Time)
+[debug] [2024-04-18T13:57:05.999Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-18T13:57:06.226Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-18T13:57:06.227Z] > authorizing via signed-in user (himanshujha2106@gmail.com)
+[debug] [2024-04-18T13:57:06.238Z] [iam] checking project datcrazyblog for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-04-18T13:57:06.245Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/datcrazyblog:testIamPermissions [none]
+[debug] [2024-04-18T13:57:06.246Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/datcrazyblog:testIamPermissions x-goog-quota-user=projects/datcrazyblog
+[debug] [2024-04-18T13:57:06.247Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/datcrazyblog:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-04-18T13:57:10.572Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/datcrazyblog:testIamPermissions 200
+[debug] [2024-04-18T13:57:10.572Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/datcrazyblog:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-04-18T13:57:10.574Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/datcrazyblog [none]
+[debug] [2024-04-18T13:57:11.386Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/datcrazyblog 200
+[debug] [2024-04-18T13:57:11.387Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/datcrazyblog {"projectId":"datcrazyblog","projectNumber":"1038402309903","displayName":"datcrazyblog","name":"projects/datcrazyblog","resources":{"hostingSite":"datcrazyblog"},"state":"ACTIVE","etag":"1_f9f2450e-cd95-4b87-9ce2-15e8ff9c1384"}
+[debug] [2024-04-18T13:57:22.095Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/datcrazyblog/sites pageToken=&pageSize=10
+[debug] [2024-04-18T13:57:25.731Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/datcrazyblog/sites 200
+[debug] [2024-04-18T13:57:25.732Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/datcrazyblog/sites {"sites":[{"name":"projects/datcrazyblog/sites/datcrazyblog","defaultUrl":"https://datcrazyblog.web.app","appId":"1:1038402309903:web:30828ffd637eeb50d2f87a","type":"DEFAULT_SITE"}]}
+[debug] [2024-04-18T13:57:25.733Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:1038402309903:web:30828ffd637eeb50d2f87a/config [none]
+[debug] [2024-04-18T13:57:27.789Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:1038402309903:web:30828ffd637eeb50d2f87a/config 200
+[debug] [2024-04-18T13:57:27.789Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:1038402309903:web:30828ffd637eeb50d2f87a/config {"projectId":"datcrazyblog","appId":"1:1038402309903:web:30828ffd637eeb50d2f87a","storageBucket":"datcrazyblog.appspot.com","apiKey":"AIzaSyDEa7iFkgAYhX03i04gNK3SZImO6IBqJAA","authDomain":"datcrazyblog.firebaseapp.com","messagingSenderId":"1038402309903","measurementId":"G-VGB0E0ZY2S"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+   The integration is known to work with Next.js version 12 - 14.0. You may encounter errors.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2024-04-18T13:57:50.729Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/datcrazyblog/sites/datcrazyblog [none]
+[debug] [2024-04-18T13:57:55.638Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/datcrazyblog/sites/datcrazyblog 200
+[debug] [2024-04-18T13:57:55.638Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/datcrazyblog/sites/datcrazyblog {"name":"projects/datcrazyblog/sites/datcrazyblog","defaultUrl":"https://datcrazyblog.web.app","appId":"1:1038402309903:web:30828ffd637eeb50d2f87a","type":"DEFAULT_SITE"}
+[info]   ▲ Next.js 14.2.2
+
+[info] 
+
+[info]    Creating an optimized production build ...
+
+[info]  ✓ Compiled successfully
+
+[info]    Linting and checking validity of types ...
+
+[info]    Collecting page data ...
+
+[info]    Generating static pages (0/16) ...
+
+[info]    Generating static pages (4/16) 
+
+[info]    Generating static pages (8/16) 
+
+[info]    Generating static pages (12/16) 
+
+[info]  ✓ Generating static pages (16/16)
+
+[info]    Finalizing page optimization ...
+
+[info]    Collecting build traces ...
+
+[info] 
+
+[info] Route (app)                                              Size     First Load JS
+┌ ○ /                                                    573 B           142 kB
+├ ○ /_not-found                                          137 B          87.1 kB
+├ ○ /about                                               364 B           142 kB
+├ ○ /blog                                                364 B           142 kB
+├ ○ /blog/3-lessons-we-learned-going-back-to-the-office  370 B           142 kB
+├ ○ /blog/a-short-guide-to-component-naming              370 B           142 kB
+├ ○ /blog/future-of-web-development                      370 B           142 kB
+├ ○ /contact                                             515 B           127 kB
+├ ○ /process                                             2.47 kB         134 kB
+├ ○ /work                                                364 B           142 kB
+├ ○ /work/family-fund                                    370 B           142 kB
+├ ○ /work/phobia                                         370 B           142 kB
+└ ○ /work/unseal                                         370 B           142 kB
++ First Load JS shared by all                            86.9 kB
+  ├ chunks/23-138e8fda72c0b320.js                        31.4 kB
+  ├ chunks/fd9d1056-c6c67ff69ea279c5.js                  53.6 kB
+  └ other shared chunks (total)                          1.89 kB
+
+
+
+[info] ○  (Static)  prerendered as static content
+
+
+[info] Building a Cloud Function to run this application. This is needed due to:
+[info]  • Image Optimization
+[info]  • non-static component /_not-found/page
+[info] 
+[debug] [2024-04-18T14:00:38.605Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/datcrazyblog/sites/datcrazyblog [none]
+[debug] [2024-04-18T14:00:42.102Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/datcrazyblog/sites/datcrazyblog 200
+[debug] [2024-04-18T14:00:42.103Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/datcrazyblog/sites/datcrazyblog {"name":"projects/datcrazyblog/sites/datcrazyblog","defaultUrl":"https://datcrazyblog.web.app","appId":"1:1038402309903:web:30828ffd637eeb50d2f87a","type":"DEFAULT_SITE"}
+[debug] [2024-04-18T14:00:42.828Z] Error: Source and destination must not be the same.
+    at C:\Users\Himanshu Jha\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\util\stat.js:49:19
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-04-18T14:05:28.911Z] ----------------------------------------------------------------------
+[debug] [2024-04-18T14:05:28.917Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Himanshu Jha\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-04-18T14:05:28.918Z] CLI Version:   13.7.3
+[debug] [2024-04-18T14:05:28.919Z] Platform:      win32
+[debug] [2024-04-18T14:05:28.919Z] Node Version:  v20.11.1
+[debug] [2024-04-18T14:05:28.920Z] Time:          Thu Apr 18 2024 19:35:28 GMT+0530 (India Standard Time)
+[debug] [2024-04-18T14:05:28.920Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-18T14:05:29.310Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-18T14:05:29.312Z] > authorizing via signed-in user (himanshujha2106@gmail.com)
+[debug] [2024-04-18T14:05:29.313Z] [iam] checking project datcrazyblog for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-04-18T14:05:29.323Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/datcrazyblog:testIamPermissions [none]
+[debug] [2024-04-18T14:05:29.324Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/datcrazyblog:testIamPermissions x-goog-quota-user=projects/datcrazyblog
+[debug] [2024-04-18T14:05:29.325Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/datcrazyblog:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-04-18T14:05:31.451Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/datcrazyblog:testIamPermissions 200
+[debug] [2024-04-18T14:05:31.452Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/datcrazyblog:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-04-18T14:05:31.455Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/datcrazyblog [none]
+[debug] [2024-04-18T14:05:32.447Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/datcrazyblog 200
+[debug] [2024-04-18T14:05:32.448Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/datcrazyblog {"projectId":"datcrazyblog","projectNumber":"1038402309903","displayName":"datcrazyblog","name":"projects/datcrazyblog","resources":{"hostingSite":"datcrazyblog"},"state":"ACTIVE","etag":"1_f9f2450e-cd95-4b87-9ce2-15e8ff9c1384"}
+[debug] [2024-04-18T14:05:44.291Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/datcrazyblog/sites pageToken=&pageSize=10
+[debug] [2024-04-18T14:05:45.828Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/datcrazyblog/sites 200
+[debug] [2024-04-18T14:05:45.829Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/datcrazyblog/sites {"sites":[{"name":"projects/datcrazyblog/sites/datcrazyblog","defaultUrl":"https://datcrazyblog.web.app","appId":"1:1038402309903:web:30828ffd637eeb50d2f87a","type":"DEFAULT_SITE"}]}
+[debug] [2024-04-18T14:05:45.830Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:1038402309903:web:30828ffd637eeb50d2f87a/config [none]
+[debug] [2024-04-18T14:05:47.177Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:1038402309903:web:30828ffd637eeb50d2f87a/config 200
+[debug] [2024-04-18T14:05:47.177Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:1038402309903:web:30828ffd637eeb50d2f87a/config {"projectId":"datcrazyblog","appId":"1:1038402309903:web:30828ffd637eeb50d2f87a","storageBucket":"datcrazyblog.appspot.com","apiKey":"AIzaSyDEa7iFkgAYhX03i04gNK3SZImO6IBqJAA","authDomain":"datcrazyblog.firebaseapp.com","messagingSenderId":"1038402309903","measurementId":"G-VGB0E0ZY2S"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+   The integration is known to work with Next.js version 12 - 14.0. You may encounter errors.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2024-04-18T14:06:13.514Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/datcrazyblog/sites/datcrazyblog [none]
+[debug] [2024-04-18T14:06:14.841Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/datcrazyblog/sites/datcrazyblog 200
+[debug] [2024-04-18T14:06:14.842Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/datcrazyblog/sites/datcrazyblog {"name":"projects/datcrazyblog/sites/datcrazyblog","defaultUrl":"https://datcrazyblog.web.app","appId":"1:1038402309903:web:30828ffd637eeb50d2f87a","type":"DEFAULT_SITE"}
+[info]   ▲ Next.js 14.2.2
+
+[info] 
+
+[info]    Creating an optimized production build ...
+
+[info]  ✓ Compiled successfully
+
+[info]    Linting and checking validity of types ...
+
+[info]    Collecting page data ...
+
+[info]    Generating static pages (0/16) ...
+
+[info]    Generating static pages (4/16) 
+
+[info]    Generating static pages (8/16) 
+
+[info]    Generating static pages (12/16) 
+
+[info]  ✓ Generating static pages (16/16)
+
+[info]    Finalizing page optimization ...
+
+[info]    Collecting build traces ...
+
+[info] 
+
+[info] Route (app)                                              Size     First Load JS
+┌ ○ /                                                    573 B           142 kB
+├ ○ /_not-found                                          137 B          87.1 kB
+├ ○ /about                                               364 B           142 kB
+├ ○ /blog                                                364 B           142 kB
+├ ○ /blog/3-lessons-we-learned-going-back-to-the-office  370 B           142 kB
+├ ○ /blog/a-short-guide-to-component-naming              370 B           142 kB
+├ ○ /blog/future-of-web-development                      370 B           142 kB
+├ ○ /contact                                             515 B           127 kB
+├ ○ /process                                             2.47 kB         134 kB
+├ ○ /work                                                364 B           142 kB
+├ ○ /work/family-fund                                    370 B           142 kB
+├ ○ /work/phobia                                         370 B           142 kB
+└ ○ /work/unseal                                         370 B           142 kB
++ First Load JS shared by all                            86.9 kB
+  ├ chunks/23-138e8fda72c0b320.js                        31.4 kB
+  ├ chunks/fd9d1056-c6c67ff69ea279c5.js                  53.6 kB
+  └ other shared chunks (total)                          1.89 kB
+
+
+
+[info] ○  (Static)  prerendered as static content
+
+
+[info] Building a Cloud Function to run this application. This is needed due to:
+[info]  • Image Optimization
+[info]  • non-static component /_not-found/page
+[info] 
+[debug] [2024-04-18T14:07:17.693Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/datcrazyblog/sites/datcrazyblog [none]
+[debug] [2024-04-18T14:07:19.050Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/datcrazyblog/sites/datcrazyblog 200
+[debug] [2024-04-18T14:07:19.051Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/datcrazyblog/sites/datcrazyblog {"name":"projects/datcrazyblog/sites/datcrazyblog","defaultUrl":"https://datcrazyblog.web.app","appId":"1:1038402309903:web:30828ffd637eeb50d2f87a","type":"DEFAULT_SITE"}
+[debug] [2024-04-18T14:07:19.788Z] Error: Source and destination must not be the same.
+    at C:\Users\Himanshu Jha\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\util\stat.js:49:19
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-04-19T04:14:51.485Z] ----------------------------------------------------------------------
+[debug] [2024-04-19T04:14:51.489Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Himanshu Jha\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-04-19T04:14:51.489Z] CLI Version:   13.7.3
+[debug] [2024-04-19T04:14:51.489Z] Platform:      win32
+[debug] [2024-04-19T04:14:51.490Z] Node Version:  v20.11.1
+[debug] [2024-04-19T04:14:51.490Z] Time:          Fri Apr 19 2024 09:44:51 GMT+0530 (India Standard Time)
+[debug] [2024-04-19T04:14:51.490Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-19T04:14:51.603Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-19T04:14:51.604Z] > authorizing via signed-in user (himanshujha2106@gmail.com)
+[debug] [2024-04-19T04:14:51.604Z] [iam] checking project datcrazyblog for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-04-19T04:14:51.606Z] > refreshing access token with scopes: []
+[debug] [2024-04-19T04:14:51.609Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-04-19T04:14:51.609Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-04-19T04:14:52.018Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-04-19T04:14:52.018Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-04-19T04:14:52.035Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/datcrazyblog:testIamPermissions [none]
+[debug] [2024-04-19T04:14:52.035Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/datcrazyblog:testIamPermissions x-goog-quota-user=projects/datcrazyblog
+[debug] [2024-04-19T04:14:52.035Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/datcrazyblog:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-04-19T04:14:53.626Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/datcrazyblog:testIamPermissions 200
+[debug] [2024-04-19T04:14:53.627Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/datcrazyblog:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-04-19T04:14:53.629Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/datcrazyblog [none]
+[debug] [2024-04-19T04:14:54.230Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/datcrazyblog 200
+[debug] [2024-04-19T04:14:54.231Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/datcrazyblog {"projectId":"datcrazyblog","projectNumber":"1038402309903","displayName":"datcrazyblog","name":"projects/datcrazyblog","resources":{"hostingSite":"datcrazyblog"},"state":"ACTIVE","etag":"1_f9f2450e-cd95-4b87-9ce2-15e8ff9c1384"}
+[debug] [2024-04-19T04:15:03.010Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/datcrazyblog/sites pageToken=&pageSize=10
+[debug] [2024-04-19T04:15:04.215Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/datcrazyblog/sites 200
+[debug] [2024-04-19T04:15:04.215Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/datcrazyblog/sites {"sites":[{"name":"projects/datcrazyblog/sites/datcrazyblog","defaultUrl":"https://datcrazyblog.web.app","appId":"1:1038402309903:web:30828ffd637eeb50d2f87a","type":"DEFAULT_SITE"}]}
+[debug] [2024-04-19T04:15:04.216Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:1038402309903:web:30828ffd637eeb50d2f87a/config [none]
+[debug] [2024-04-19T04:15:05.288Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:1038402309903:web:30828ffd637eeb50d2f87a/config 200
+[debug] [2024-04-19T04:15:05.288Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:1038402309903:web:30828ffd637eeb50d2f87a/config {"projectId":"datcrazyblog","appId":"1:1038402309903:web:30828ffd637eeb50d2f87a","storageBucket":"datcrazyblog.appspot.com","apiKey":"AIzaSyDEa7iFkgAYhX03i04gNK3SZImO6IBqJAA","authDomain":"datcrazyblog.firebaseapp.com","messagingSenderId":"1038402309903","measurementId":"G-VGB0E0ZY2S"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+   The integration is known to work with Next.js version 12 - 14.0. You may encounter errors.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2024-04-19T04:15:18.039Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/datcrazyblog/sites/datcrazyblog [none]
+[debug] [2024-04-19T04:15:19.147Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/datcrazyblog/sites/datcrazyblog 200
+[debug] [2024-04-19T04:15:19.147Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/datcrazyblog/sites/datcrazyblog {"name":"projects/datcrazyblog/sites/datcrazyblog","defaultUrl":"https://datcrazyblog.web.app","appId":"1:1038402309903:web:30828ffd637eeb50d2f87a","type":"DEFAULT_SITE"}
+[info]   ▲ Next.js 14.2.2
+
+[info] 
+
+[info]    Creating an optimized production build ...
+
+[info] uncaughtException [Error: EPERM: operation not permitted, open 'D:\Downloads\studio\tailwindui-studio\studio-js\.next\trace'] {
+  errno: -4048,
+  code: 'EPERM',
+  syscall: 'open',
+  path: 'D:\\Downloads\\studio\\tailwindui-studio\\studio-js\\.next\\trace'
+}
+
+[debug] [2024-04-19T04:15:39.235Z] Error: ENOENT: no such file or directory, open 'D:\Downloads\studio\tailwindui-studio\studio-js\.next\server\middleware-manifest.json'
+[error] 
+[error] Error: An unexpected error has occurred.
