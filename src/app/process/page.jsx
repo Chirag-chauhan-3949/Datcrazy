@@ -180,7 +180,7 @@ function Values() {
             shoe-horning those needs into something we already built.
           </GridListItem>
           <GridListItem title="Honest">
-            We are transparent about all of our processes, banking on the simple
+            We are transparent about all of Our processes, banking on the simple
             fact our clients never actually read anything.
           </GridListItem>
           <GridListItem title="Loyal">
@@ -198,7 +198,7 @@ function Values() {
 }
 
 export const metadata = {
-  title: 'Our Process',
+  title: 'Our process',
   description:
     'We believe in efficiency and maximizing our resources to provide the best value to our clients.',
 }
