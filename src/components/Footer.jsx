@@ -9,9 +9,9 @@ const navigation = [
   {
     title: 'Work',
     links: [
-      { title: 'FamilyFund', href: '/work/family-fund' },
-      { title: 'Unseal', href: '/work/unseal' },
-      { title: 'Phobia', href: '/work/phobia' },
+      { title: '3D printing', href: '/work/family-fund' },
+      { title: 'Laser Engraving', href: '/work/unseal' },
+      { title: 'CNC wood cutting', href: '/work/phobia' },
       {
         title: (
           <>
@@ -27,7 +27,7 @@ const navigation = [
     links: [
       { title: 'About', href: '/about' },
       { title: 'Process', href: '/process' },
-      { title: 'Blog', href: '/blog' },
+      // { title: 'Blog', href: '/blog' },
       { title: 'Contact us', href: '/contact' },
     ],
   },
@@ -122,7 +122,9 @@ export function Footer() {
         </div>
         <div className="mb-20 mt-24 flex flex-wrap items-end justify-between gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
           <Link href="/" aria-label="Home">
-            <Logo className="h-8" fillOnHover />
+            {/* <Logo className="h-8" fillOnHover /> */}
+            
+             
           </Link>
           <p className="text-sm text-neutral-700">
             © Datcrazy Agency Inc. {new Date().getFullYear()}

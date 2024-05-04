@@ -59,7 +59,7 @@ function Header({
           onMouseEnter={() => setLogoHovered(true)}
           onMouseLeave={() => setLogoHovered(false)}
         >
-          <Logomark
+          {/* <Logomark
             className="h-8 sm:hidden"
             invert={invert}
             filled={logoHovered}
@@ -68,7 +68,8 @@ function Header({
             className="hidden h-8 sm:block"
             invert={invert}
             filled={logoHovered}
-          />
+          /> */}
+          <Logo/>
         </Link>
         <div className="flex items-center gap-x-8">
           <Button href="/contact" invert={invert}>
@@ -132,7 +133,7 @@ function Navigation() {
       </NavigationRow>
       <NavigationRow>
         <NavigationItem href="/process">Our process</NavigationItem>
-        <NavigationItem href="/blog">Blog</NavigationItem>
+        {/* <NavigationItem href="/blog">Blog</NavigationItem> */}
       </NavigationRow>
     </nav>
   )
