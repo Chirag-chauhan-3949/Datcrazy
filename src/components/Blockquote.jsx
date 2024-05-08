@@ -23,10 +23,10 @@ function BlockquoteWithImage({ author, children, className, image }) {
         />
       </div>
       <figcaption className="text-sm text-neutral-950 sm:col-span-7 sm:row-start-3 sm:text-base">
-        <span className="font-semibold">{author.name}</span>
+        {/* <span className="font-semibold">{author.name}</span> */}
         <span className="hidden font-semibold sm:inline">, </span>
         <br className="sm:hidden" />
-        <span className="sm:font-semibold">{author.role}</span>
+        {/* <span className="sm:font-semibold">{author.role}</span> */}
       </figcaption>
     </figure>
   )
