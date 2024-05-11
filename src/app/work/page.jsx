@@ -45,7 +45,7 @@ function CaseStudies({ caseStudies }) {
                       {caseStudy.client}
                     </h3>
                   </div>
-                  <div className="mt-1 flex gap-x-4 sm:mt-0 lg:block">
+                  {/* <div className="mt-1 flex gap-x-4 sm:mt-0 lg:block">
                     <p className="text-sm tracking-tight text-neutral-950 after:ml-4 after:font-semibold after:text-neutral-300 after:content-['/'] lg:mt-2 lg:after:hidden">
                       {caseStudy.service}
                     </p>
@@ -54,7 +54,7 @@ function CaseStudies({ caseStudies }) {
                         {formatDate(caseStudy.date)}
                       </time>
                     </p>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="col-span-full lg:col-span-2 lg:max-w-2xl">
                   <p className="font-display text-4xl font-medium text-neutral-950">
