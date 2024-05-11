@@ -145,12 +145,12 @@ export default async function Work() {
     <>
       <PageIntro
         eyebrow="Our work"
-        title="Proven solutions for real-world problems."
+        title="How does datcrazy work?"
       >
         <p>
-          We believe in efficiency and maximizing our resources to provide the
-          best value to our clients. The primary way we do that is by re-using
-          the same five projects we’ve been developing for the past decade.
+        1. Send your CAD File in STL or STEP Format to get only the Best Quotation from Datcrazy expert within 15 minutes.
+        2. Depending upon the order type, we start your manufacturing in our facilities as fast as 20 minutes.
+        3. We take care of all the operations and logistics hassle, making sure that your parts are delivered before time.
         </p>
       </PageIntro>
 
