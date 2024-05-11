@@ -148,9 +148,9 @@ export default async function Work() {
         title="How does datcrazy work?"
       >
         <p>
-        1. Send your CAD File in STL or STEP Format to get only the Best Quotation from Datcrazy expert within 15 minutes.
-        2. Depending upon the order type, we start your manufacturing in our facilities as fast as 20 minutes.
-        3. We take care of all the operations and logistics hassle, making sure that your parts are delivered before time.
+        1. Send your CAD File in STL or STEP Format to get only the Best Quotation from Datcrazy expert within 15 minutes.<br/>
+        2. Depending upon the order type, we start your manufacturing in our facilities as fast as 20 minutes.<br/>
+        3. We take care of all the operations and logistics hassle, making sure that your parts are delivered before time.<br/>
         </p>
       </PageIntro>
 
