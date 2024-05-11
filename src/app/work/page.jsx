@@ -24,9 +24,9 @@ function CaseStudies({ caseStudies }) {
   return (
     <Container className="mt-40">
       <FadeIn>
-        <h2 className="font-display text-2xl font-semibold text-neutral-950">
+        {/* <h2 className="font-display text-2xl font-semibold text-neutral-950">
           Case studies
-        </h2>
+        </h2> */}
       </FadeIn>
       <div className="mt-10 space-y-20 sm:space-y-24 lg:space-y-32">
         {caseStudies.map((caseStudy) => (
