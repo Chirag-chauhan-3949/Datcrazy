@@ -5,7 +5,7 @@ import '@/styles/tailwind.css'
 export const metadata = {
   title: {
     template: '%s - Datcrazy',
-    default: 'Datcrazy - Award winning developer Datcrazy based in Denmark',
+    default: 'Datcrazy - Your Premier Destination for 3D Printing, Laser Engraving, and CNC Cutting Excellence!',
   },
 }
 
