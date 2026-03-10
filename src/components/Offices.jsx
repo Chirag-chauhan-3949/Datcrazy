@@ -22,7 +22,7 @@ export function Offices({ invert = false, ...props }) {
     <ul role="list" {...props}>
       <li>
         <Office name="Datcrazy LLP" invert={invert}>
-          B-014 , Babylon tower, Telibandha
+          MM Silver Plaza,1st Floor Office No. 105, Mahavir Nager,
           <br />
           492001, Raipur, Chhattisgarh
         </Office>
